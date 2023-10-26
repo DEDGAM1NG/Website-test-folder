@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply black background color and set the font family for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background color */
+  color: #fff; /* Text color (white) */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+header {
+  background-color: #000; /* Black background color */
+  color: #ffcc00; /* Gold text color */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+  text-align: center;
+
+}
+.spacing-summary-theme {
+  display: flex;
+  justify-content: space-between; 
+}
+/* Style the summary section and theme section */
+#theme {
+  width: 45%; /* Set the width to 45% to make them side by side */
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
+/* Style thematic statement and supporting quotes */
+#theme, #character {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000; /* Black background color */
+  color: #ffcc00; /* Gold text color */
+  padding: 10px; /* Reduce the footer padding */
+  text-align: center;
+}
+
+/* Style for the active dropdown button */
+.active {
+  display: block;
+}
+
+.dropdown-button {
+  background-color: #333; /* Change this to your desired button background color */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #333; /* Change this to your desired dropdown content background color */
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown-button:focus + .dropdown-content {
+  display: block;
+}
+
+/* Style for the footer dropdown buttons */
+.inner-dropdown-button {
+  background-color: #333; /* Change this to your desired button background color */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Style for the footer dropdown content */
+.inner-dropdown-content {
+  display: none;
+  background-color: #333; /* Change this to your desired dropdown content background color */
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.active {
+  display: block;
+}
+
+/* Style for the close button */
+.close-button {
+  background-color: #8B8000; /* Red background color */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 5px;
+}
